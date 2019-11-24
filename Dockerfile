@@ -1,4 +1,6 @@
-FROM golang:1.12
+# SPDX-License-Identifier: Apache-2.0 OR GPL-2.0-or-later
+
+FROM golang:1.13
 
 RUN mkdir -p /peridot-jobrunner
 WORKDIR /peridot-jobrunner
